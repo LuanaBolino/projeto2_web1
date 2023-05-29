@@ -1,0 +1,41 @@
+.superior{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 50px;
+    /* gap: 320px;*/
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    align-items: center;
+    margin: auto;
+    background-color: aqua;
+}
+
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+
+.logo{
+    display: flex;
+    font-weight: bold;
+    align-items: baseline;
+}
+
+.vermelho{
+    color: #f35926;
+    font-size: 35px;
+}
+.amarelo{
+    color: #fcb929;
+    font-size: 35px;
+}
+.verde{
+    color: #00b049;
+    font-size: 35px;
+}
+
+main{
+    min-width: 1000px;
+}
