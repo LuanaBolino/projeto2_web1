@@ -1,18 +1,21 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 .superior{
     display: flex;
     justify-content: space-between;
+    min-width: 1000px;
     width: 1000px;
     height: 50px;
-    /* gap: 320px;*/
-    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
     align-items: center;
     margin: auto;
-    background-color: aqua;
 }
 
 
 .menu{
     display: flex;
+    justify-content: space-between;
     gap: 40px;
 }
 
@@ -36,6 +39,23 @@
     font-size: 35px;
 }
 
-main{
+header{
     min-width: 1000px;
+    height: 420px;
+    background-image: url("../img/barcos.webp");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.conteudo{
+    display: flex;
+    width: 1000px;
+    height: auto;
+    margin: auto;
+
+}
+h2{
+    font-weight: bold;
+    font-size: 1.5em;
 }
