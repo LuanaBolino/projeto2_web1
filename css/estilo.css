@@ -1,24 +1,35 @@
 html{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
 }
 
-.superior{
-    display: flex;
-    justify-content: space-between;
-    min-width: 1000px;
-    width: 1000px;
-    height: 50px;
-    align-items: center;
+nav{
+    top: 0;
+	left: 0;
+	right: 0;
     margin: auto;
+    background-color: white;
+    position: sticky;
+	min-width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    z-index: 1; /*vero que é*/
 }
 
+.site-largura {
+	width: 1000px;
+	margin: 0 auto;
+}
 
-.menu{
+.m-superior{
     display: flex;
     justify-content: space-between;
-    gap: 40px;
+    align-items: center;
 }
 
+.margem{
+    margin: 0 1rem;
+}
 
 .logo{
     display: flex;
@@ -39,13 +50,33 @@ html{
     font-size: 35px;
 }
 
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+
 header{
     min-width: 1000px;
-    height: 420px;
+    height: 335px;
     background-image: url("../img/barcos.webp");
-    background-size: 100%;
+    background-size: 100% 335px;
     background-repeat: no-repeat;
     margin-bottom: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filtro{
+    width: 1000px;
+    height: 145px;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px;
 }
 
 .conteudo{
