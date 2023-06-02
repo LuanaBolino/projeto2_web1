@@ -5,21 +5,26 @@ html{
 nav{
     top: 0;
 	left: 0;
-	right: 0;
-    margin: auto;
     background-color: white;
     position: sticky;
 	min-width: 1000px;
     height: 50px;
     display: flex;
     align-items: center;
-    z-index: 1; /*vero que é*/
 }
 
-.site-largura {
+.siteLargura {
 	width: 1000px;
 	margin: 0 auto;
 }
+
+/*ok---------------------------------------------------------*/
+
+.margem{
+    margin: 0 2.5px;
+}
+
+/*ok---------------------------------------------------------*/
 
 .m-superior{
     display: flex;
@@ -27,28 +32,27 @@ nav{
     align-items: center;
 }
 
-.margem{
-    margin: 0 1rem;
-}
+/*ok---------------------------------------------------------*/
 
 .logo{
     display: flex;
     font-weight: bold;
     align-items: baseline;
 }
-
-.vermelho{
-    color: #f35926;
+.n{
     font-size: 35px;
 }
+.vermelho{
+    color: #f35926;
+}
 .amarelo{
-    color: #fcb929;
-    font-size: 35px;
+    color: #fcb929;   
 }
 .verde{
     color: #00b049;
-    font-size: 35px;
 }
+
+/*ok---------------------------------------------------------*/
 
 .menu{
     display: flex;
@@ -56,7 +60,6 @@ nav{
     align-items: center;
     gap: 40px;
 }
-
 
 header{
     min-width: 1000px;
@@ -70,8 +73,10 @@ header{
     justify-content: center;
 }
 
+/*ok---------------------------------------------------------*/
+
 .filtro{
-    width: 1000px;
+    width: 995px;
     height: 145px;
     display: flex;
     align-items: center;
@@ -79,14 +84,32 @@ header{
     border-radius: 15px;
 }
 
-.conteudo{
-    display: flex;
-    width: 1000px;
-    height: auto;
-    margin: auto;
+/*ok---------------------------------------------------------*/
 
-}
+
+
 h2{
     font-weight: bold;
     font-size: 1.5em;
+}
+
+main{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.caixas{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 46px;
+    margin-bottom: 100px;
+}
+
+.caixa{
+    background-color: #f35926;
+    width: 215px;
+    border-radius: 10px;
+    height: 200px;
 }
