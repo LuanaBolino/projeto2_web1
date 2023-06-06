@@ -1,16 +1,6 @@
 html{
     font-family: sans-serif;
-}
-
-nav{
-    top: 0;
-	left: 0;
-    background-color: white;
-    position: sticky;
-	min-width: 1000px;
-    height: 50px;
-    display: flex;
-    align-items: center;
+    background-color: #f8f6f7;
 }
 
 .siteLargura {
@@ -18,22 +8,26 @@ nav{
 	margin: 0 auto;
 }
 
-/*ok---------------------------------------------------------*/
+/*menu---------------------------------------------------------*/
 
-.margem{
-    margin: 0 2.5px;
+nav{
+    top: 0;
+	left: 0;
+    right: 0;
+    z-index: 1;
+    position: sticky;
+    background-color: white;
+	min-width: 1000px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
-/*ok---------------------------------------------------------*/
-
 .m-superior{
-    width: 80%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-
-/*ok---------------------------------------------------------*/
 
 .logo{
     display: flex;
@@ -53,14 +47,14 @@ nav{
     color: #00b049;
 }
 
-/*ok---------------------------------------------------------*/
-
-.menu{
+.opcoes{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 40px;
 }
+
+/*header---------------------------------------------------------*/
 
 header{
     min-width: 1000px;
@@ -74,10 +68,8 @@ header{
     justify-content: center;
 }
 
-/*ok---------------------------------------------------------*/
-
-.filtro{
-    width: 80%;
+.form{
+    width: 1000px;
     height: 145px;
     display: flex;
     align-items: center;
@@ -85,13 +77,11 @@ header{
     border-radius: 15px;
 }
 
-/*ok---------------------------------------------------------*/
+/*main ---------------------------------------------------------*/
 
-
-
-h2{
+h1{
     font-weight: bold;
-    font-size: 1.5em;
+    font-size: 24px;
 }
 
 main{
@@ -109,8 +99,64 @@ main{
 }
 
 .caixa{
-    background-color: #f35926;
+    background-size: 361px 202px;
+    background-repeat: no-repeat;
+    background-position: -71px -2px;
     width: 215px;
-    border-radius: 10px;
+    border-radius: 13px;
     height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    color: white;
+    font-weight: bold;
+    text-shadow: -1px 2px 3px black;
+}
+
+h3{
+    font-size: 24px;
+}
+
+button{
+    width: 146px;
+    height: 31px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    text-transform: uppercase;
+    box-shadow: -1px 1px 5px 0px black;
+}
+
+.rj {
+    background-image: url(../img/rio.webp);
+}
+
+.bonito{
+    background-image: url(../img/bonito.webp);
+}
+
+.sp{
+    background-image: url(../img/sao-paulo.webp);
+}
+
+.foz{
+    background-image: url(../img/foz.webp);
+}
+
+.maceio{
+    background-image: url(../img/maceio.webp);
+}
+
+.salvador{
+    background-image: url(../img/salvador.webp);
+}
+
+.fortaleza{
+    background-image: url(../img/fortaleza.webp);
+}
+
+.bh{
+    background-image: url(../img/belo-horizonte.webp);
 }
