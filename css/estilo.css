@@ -64,17 +64,49 @@ header{
     background-repeat: no-repeat;
     margin-bottom: 40px;
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 }
 
-.form{
+form{
+    margin-top: 48px;
     width: 1000px;
     height: 145px;
     display: flex;
+    justify-content: center;
     align-items: center;
     background-color: white;
     border-radius: 15px;
+}
+
+.pesquisa{
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+    flex-direction: column;
+}
+
+.campo-de-pesquisa{
+    display: flex;
+    gap: 10px;
+}
+
+.campo-de-digitacao{
+    height: 35px;
+    width: 178px;
+    font-size: 19px;
+}
+
+.button-red{
+    border-radius: 4px;
+    color: white;
+    background-color:  #ea3d35;
+    height: 35px;
+    width: 178px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 19px;
 }
 
 /*main ---------------------------------------------------------*/
@@ -82,6 +114,7 @@ header{
 h1{
     font-weight: bold;
     font-size: 24px;
+    text-transform: uppercase;
 }
 
 main{
@@ -119,7 +152,7 @@ h3{
     font-size: 24px;
 }
 
-button{
+.button-caixa{
     width: 146px;
     height: 31px;
     border-radius: 20px;
