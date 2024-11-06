@@ -12,6 +12,12 @@ O aplicativo é uma página HTML simples que exibe uma alguns destinos de voos e
 
 ## Tecnologias Utilizadas
 
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="30" alt="html5 logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="30" alt="css3 logo"  />
+  <img width="12" />
+</div>
 
 ## Contexto
 Este projeto foi desenvolvido como parte de uma avaliação para consolidar os conhecimentos adquiridos durante o semestre, com foco em estruturação de páginas e estilização de elementos.
