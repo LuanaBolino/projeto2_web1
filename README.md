@@ -1,6 +1,6 @@
 # Sobre o Projeto ✈️
 
-![Captura de tela do projeto](./img/Captura de tela 2024-11-06 102839.png )
+![Captura de tela do projeto](./img/Captura%20de%20tela%202024-11-06%20102839.png)
 
 
 Este projeto foi desenvolvido no primeiro período do curso de **Sistemas para a Internet** como uma aplicação prática dos conceitos de **HTML** e **CSS** aprendidos ao longo do semestre. É um projeto básico que foca no uso de elementos de navegação (`<nav>`), formulários (`<form>`), botões (`<button>`) e no layout com `display: flex`.
